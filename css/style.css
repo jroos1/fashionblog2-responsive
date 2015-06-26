@@ -1,0 +1,221 @@
+/* 
+Project Name: Fashion Blog
+Author: Jason
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright 
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 18px;
+     line-height: 1.4;
+     font-family: Lato, Arial, sans-serif;
+     width: 100%;
+     margin:0px;
+     padding: 0 5%;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+header {
+	width: 100%;
+}
+
+header h1 {
+	float: left;
+	margin-right: 30px;
+}
+
+header h2 {
+	margin-bottom: 5px;
+	padding-top: 55px;
+	color: #BBB;
+	font-size: 30px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	background-color: black;
+	text-align: center;
+	border-right: 1px solid white;
+	width: 16.666%;
+}
+
+nav li:last-of-type {
+	border-right: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	padding: 15px 0;
+}
+
+a:hover {
+	color: #A00;
+}
+
+main {
+	width: 70%;
+	float: left;
+	margin-right: 5%;
+}
+
+aside {
+	width: 25%;
+	float: left;
+	padding-top: 135px;
+	color: #444;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
+
+h1 a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #D00;
+	font-size: 60px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 45px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: black;
+}
+
+h3 {
+	color: #CCC;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+h4 {
+	text-align: right;
+	color: #D00;
+}
+
+h4 a {
+	color: #D00;
+	text-decoration: none;
+}
+
+article {
+	border-bottom: 1px solid #DDD;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+article img {
+	width: 100%;
+}
+
+span {
+	font-size: 80px;
+	float: left;
+	color: #CCC;
+	line-height: .8;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+section {
+	border-bottom: 1px solid #DDD;
+}
+
+section a {
+	color: #D00;
+	text-decoration: none;
+}
+
+section ul {
+	color: gray;
+}
+
+section:last-of-type {
+	border-bottom: none;
+}
+
+section h5 {
+	color: #CCC;
+	font-size: 18px;
+}
+
+section img {
+	margin: 30px 2.5%;
+	width: 95%;
+}
+
+section ul {
+	margin-left: 45px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+footer a {
+	color: #D00;
+	text-decoration: none;
+}
+
+#copyright {
+	color: #CCC;
+}
